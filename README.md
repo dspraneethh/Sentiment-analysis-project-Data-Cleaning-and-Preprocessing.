@@ -4,6 +4,9 @@ Sentiment Analysis: Data Cleaning  +  python .\data_cleaning.py
 This project focuses on preprocessing a raw sentiment dataset.
 
 Key Steps Performed:
+
+Loaded the dataset using pandas.
+
 Validating column structures.
 
 Handling missing values.
@@ -12,4 +15,4 @@ Removing duplicates.
 
 Standardizing sentiment labels.
 
-Engineering new features.
+
