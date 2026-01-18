@@ -1,26 +1,31 @@
-# Sentiment-analysis-project-Data-Cleaning-and-Preprocessing.
-I loaded a raw sentiment dataset and performed data cleaning by validating column structures, handling missing values, removing duplicates, standardizing sentiment labels, and engineering a new feature called text length. The cleaned dataset was validated and saved for further analysis. Created basic plots and charts to visualize
-the distribution and relationships within the dataset.
-Sentiment Analysis: Data Cleaning. This project focuses on preprocessing a raw sentiment dataset. + + +  [python .\data_cleaning.py] + + + [python .\data_visualization.py]
+# Sentiment Analysis: Data Cleaning and Visualization
 
-Key Steps Performed:
+This project focuses on cleaning, preprocessing, and visualizing a raw sentiment dataset using Python.  
+The goal is to prepare high-quality data for further analysis by validating structure, handling inconsistencies, and generating meaningful visual insights.
+ + + +  [python .\data_cleaning.py] + + + [python .\data_visualization.py]
 
-Loaded the dataset using pandas.
+---
 
-Validating column structures.
+## Task 1: Data Cleaning and Preprocessing
 
-Handling missing values.
+**Description:**  
+A raw sentiment dataset was loaded and cleaned to ensure consistency and usability for analysis.
 
-Removing duplicates.
+**Key Steps Performed:**
+- Loaded the dataset using pandas
+- Validated column structure and data types
+- Checked and handled missing values
+- Removed duplicate records
+- Standardized sentiment labels for consistency
+- Engineered a new feature: **text length**
+- Validated the cleaned dataset
+- Saved the cleaned data for further analysis
 
-Standardizing sentiment labels.
+**Script Used:**  
+`data_cleaning.py`
 
-Also:
-
-Created bar plots, line charts, and scatter plots.
-
-Customized plot labels, titles, and legends.
-
-Exported plots as images for reports.
+**Run Command:**
+```bash
+python data_cleaning.py
 
 
